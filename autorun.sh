@@ -1,3 +1,3 @@
 #!/bin/sh
-sh /disk/autorun.sh
+screen -dmS zhenai /disk/zhenai
 /go/gotty -w /bin/bash
