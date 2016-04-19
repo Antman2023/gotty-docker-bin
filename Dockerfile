@@ -6,6 +6,6 @@ RUN wget https://github.com/yudai/gotty/releases/download/v0.0.13/gotty_linux_am
         apt-get update && \
         apt-get install screen -y && \
         apt-get install vim -y
-
+COPY autorun.sh /go/autorun.sh
 EXPOSE 8080
 CMD ["sh", "/go/autorun.sh"]
