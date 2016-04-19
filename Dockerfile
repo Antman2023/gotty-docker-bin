@@ -6,4 +6,4 @@ RUN wget https://github.com/yudai/gotty/releases/download/v0.0.13/gotty_linux_am
 
 EXPOSE 8080
 
-ENTRYPOINT ["/gotty"]
+ENTRYPOINT ["/go/src/gotty"]
