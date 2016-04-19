@@ -7,4 +7,4 @@ RUN wget https://github.com/yudai/gotty/releases/download/v0.0.13/gotty_linux_am
 COPY autorun.sh /go/
 
 EXPOSE 8080
-CMD ["/go/gotty", "-w", "/bin/bash", "&&", "/go/autorun.sh"]
+CMD ["/go/autorun.sh", "&&", "/go/gotty", "-w", "/bin/bash"]
